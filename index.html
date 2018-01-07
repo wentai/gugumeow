@@ -8,8 +8,8 @@
   position: relative;
 }
 button {
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
 }
 svg {
     position: relative;
@@ -37,8 +37,8 @@ svg {
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
 //增加一個SVG區域，並定義外邊框
-var width = 500;
-var height = 500;
+var width = 600;
+var height = 600;
 var svg = d3.select('body')
             .append('svg')
             .attr('width', width)
@@ -51,8 +51,8 @@ var center = [
     [0.75,0.12], [0.5, 0.1], [0.2, 0.3], [0.4, 0.1], [0.6, 0.7]
 ];
 //定義比例尺
-var xAxisWidth = 300;  //x軸寬度
-var yAxisWidth = 300;  //y軸寬度
+var xAxisWidth = 600;  //x軸寬度
+var yAxisWidth = 600;  //y軸寬度
 var xScale = d3.scale.linear()  //x軸比例尺
                .domain([0, 1])
                .range([0, xAxisWidth]);
