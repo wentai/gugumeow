@@ -4,6 +4,16 @@
 <meta charset="utf-8">
 <title>GuGuMeow</title>
 <style>
+#btn {
+  position: relative;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
+svg {
+    position: relative;
+}
 .axis path,
 .axis line {
    fill: none;
@@ -18,12 +28,13 @@
 </head>
 <body>
 <h1>GuGuMeow~~</h1>
+<div id='btn'>
+        <button type="button" onclick="update()">更新</button>
+        <button type="button" onclick="add()">增加</button>
+        <button type="button" onclick="sub()">減少</button>
+    </div>
 <!-- JavaScript程式區塊 -->
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8">
-</script>
-<button type="button" onclick="update()">更新</button>
-<button type="button" onclick="add()">增加</button>
-<button type="button" onclick="sub()">減少</button>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
 //增加一個SVG區域，並定義外邊框
 var width = 500;
