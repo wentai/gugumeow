@@ -1,4 +1,4 @@
-date,cashSell,cashBuy,nowSell,nowBuy
+date,cashSell,cashBuy,spotSell,spotBuy
 2018-0102,0.2546,0.2656,0.2610,0.2650
 2018-0103,0.2549,0.2659,0.2613,0.2653
 2018-0104,0.2543,0.2653,0.2607,0.2647
