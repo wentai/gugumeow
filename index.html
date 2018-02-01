@@ -11,6 +11,8 @@
 
 function clock(){
 
+	// clear timer
+	clearTimeout(timer);
   // remove svg repeat
   d3.select('svg').remove();
 
@@ -36,9 +38,6 @@ function clock(){
 		   .attr('fill', 'black')
 		   .attr('transform', 'rotate(' +30*(i+1)+ ' 200 200)');
 	}
-
-	// clear
-    clearTimeout(timer);
 
 	// now
 	var now = new Date();
